@@ -1,9 +1,15 @@
 # Atafami Assets
 
-PNG icons for Atafami HUB / WorkspaceUI.
+Public PNG assets used by Atafami HUB runtime UI.
 
-Collection standard: 256 x 256, square canvas, transparent background, white monochrome shapes. UI tint is applied through ImageColor3.
+Collection standard: 256 × 256, square canvas, transparent background, white monochrome shapes where applicable. Runtime tinting is applied through `ImageColor3`.
 
-Use raw files from https://raw.githubusercontent.com/Vel2367/Atafami-Assets/main/icons/ .
+Current raw icon base:
 
-The source PNGs supplied for this collection retain their original provenance; this repository does not add a blanket licence to third-party assets.
+```text
+https://raw.githubusercontent.com/Vel2367/Atafami-Release/main/assets/icons/
+```
+
+Runtime code should reference canonical active filenames. Legacy/versioned filenames may remain temporarily during cleanup and should not be treated as stable public names.
+
+The source PNGs supplied for this collection retain their original provenance; this repository does not add a blanket license to third-party assets.
