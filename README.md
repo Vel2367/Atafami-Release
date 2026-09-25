@@ -28,12 +28,12 @@ The private readable source, development tests, previews, legacy references and 
 | `config-delete` | `ci--file-remove.png` |
 | `dropdown` | `dashicons--arrow-up-alt2.png` |
 | `search` | `ant-design--search-outlined.png` |
-| `gear` | `ep--setting.png` |
+| `gear` | `gravity-ui--gear.png` |
 | `settings` | `cil--apps-settings.png` |
 | `reset-all` | `akar-icons--arrow-cycle.png` |
-| `key` | `akar-icons--key.png` |
+| `key` | `fa6-solid--key.png` |
 | `discord` | `akar-icons--discord-fill.png` |
-| `button-action` | `fluent--cursor-click-20-filled.png` |
+| `button-action` | `icon-park-solid--click.png` |
 | `unload` | `akar-icons--door.png` |
 
 Direct filename assets (outside core aliases):

@@ -1,34 +1,36 @@
 # Atafami Assets
 
-Only PNGs referenced by the current libraries, previews and game-script callers are published here. Unused variants and the former CFG/dropdown assets were removed for v0.0.3.1.
+## v0.0.3.1 icon manifest
 
-The twelve supplied replacement PNGs are preserved byte-for-byte at their original 512 × 512 resolution. Retained assets keep their existing resolution. Images use transparent backgrounds and white shapes for runtime `ImageColor3` tinting.
+19 supplied PNGs, copied without transformations. ThemeUI is the sole resolver/cache/request owner. Arrow artwork points up; presentation rotates it for closed dropdowns and section collapse.
 
-| Asset | Current use |
-| --- | --- |
-| ci--file-upload.png | CFG Load |
-| ci--file-add.png | CFG Create |
-| ci--file-edit.png | CFG Overwrite |
-| ci--file-remove.png | CFG Delete |
-| ci--file-document.png | CFG trigger |
-| cil--apps-settings.png | Settings tab |
-| dashicons--arrow-down-alt2.png | Dropdown, MultiDropdown, CFG selector, Section chevron |
-| eos-icons--arrow-rotate.png | Reset All |
-| akar-icons--gear.png | MiniSection gear and existing Misc tab |
-| ant-design--search-outlined.png | Search |
-| flowbite--egg-solid.png | Existing egg tab |
-| mdi--paw.png | Existing pets tab |
-| button-action.png | Default action buttons and preview |
-| key.png | KeyUI input |
-| discord.png | Loader/KeyUI Discord action |
-| skull.png | ScriptUI preview combat tab |
+| Semantic name | PNG |
+|---|---|
+| `config` | `ci--file-document.png` |
+| `config-load` | `ci--file-upload.png` |
+| `config-create` | `ci--file-add.png` |
+| `config-overwrite` | `ci--file-edit.png` |
+| `config-delete` | `ci--file-remove.png` |
+| `dropdown` | `dashicons--arrow-up-alt2.png` |
+| `search` | `ant-design--search-outlined.png` |
+| `gear` | `gravity-ui--gear.png` |
+| `settings` | `cil--apps-settings.png` |
+| `reset-all` | `akar-icons--arrow-cycle.png` |
+| `key` | `fa6-solid--key.png` |
+| `discord` | `akar-icons--discord-fill.png` |
+| `button-action` | `icon-park-solid--click.png` |
+| `unload` | `akar-icons--door.png` |
 
-ThemeUI maps existing logical names (`config-load`, `dropdown`, `gear_v1`, `settings_v2`, etc.) to these filenames. New filenames give replacements new URL-based cache keys without deleting executor cache files. No unused duplicate PNGs are retained for aliases.
+Direct filename assets (outside core aliases):
 
-Raw icon base:
+- `akar-icons--eye-open.png`
+- `ant-design--home-outlined.png`
+- `flowbite--egg-outline.png`
+- `material-symbols--swords-outline.png`
+- `mdi--paw.png`
 
-```text
-https://raw.githubusercontent.com/Vel2367/Atafami-Release/main/assets/icons/
-```
+Removed historical assets: `akar-icons--gear.png`, `button-action.png`, `dashicons--arrow-down-alt2.png`, `discord.png`, `eos-icons--arrow-rotate.png`, `flowbite--egg-solid.png`, `key.png`, `skull.png`.
 
-The supplied source PNGs retain their original provenance; this repository does not add a blanket license to third-party assets.
+Core aliases `gear_v1`, `settings_v2`, `egg`, `paw-print` were removed. Game-specific assets use explicit filenames.
+
+New replacement filenames invalidate old URL-based cache keys without deleting executor files. The three final polish PNGs are preserved byte-for-byte. Original third-party asset provenance is retained.
