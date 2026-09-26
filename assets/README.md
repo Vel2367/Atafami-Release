@@ -1,11 +1,11 @@
 # Atafami Assets
 
-## v0.0.3.1 icon manifest
+Актуальный каталог `assets/icons/`: **19 PNG**. Названия файлов являются частью публичного URL, поэтому при замене ассетов проверяй соответствие aliases в `project/ui/ThemeUI.luau` и потребителей в Source.
 
-19 supplied PNGs, copied without transformations. ThemeUI is the sole resolver/cache/request owner. Arrow artwork points up; presentation rotates it for closed dropdowns and section collapse.
+## Core semantic aliases
 
-| Semantic name | PNG |
-|---|---|
+| Alias | Файл |
+| --- | --- |
 | `config` | `ci--file-document.png` |
 | `config-load` | `ci--file-upload.png` |
 | `config-create` | `ci--file-add.png` |
@@ -21,7 +21,9 @@
 | `button-action` | `icon-park-solid--click.png` |
 | `unload` | `akar-icons--door.png` |
 
-Direct filename assets (outside core aliases):
+## Дополнительные файлы
+
+Эти PNG используются по прямому имени, вне core alias-словаря:
 
 - `akar-icons--eye-open.png`
 - `ant-design--home-outlined.png`
@@ -29,8 +31,6 @@ Direct filename assets (outside core aliases):
 - `material-symbols--swords-outline.png`
 - `mdi--paw.png`
 
-Removed historical assets: `akar-icons--gear.png`, `button-action.png`, `dashicons--arrow-down-alt2.png`, `discord.png`, `eos-icons--arrow-rotate.png`, `flowbite--egg-solid.png`, `key.png`, `skull.png`.
+Стрелка `dropdown` в исходном изображении направлена вверх; UI поворачивает её по состоянию. Все запросы, memory/disk cache и logical cancellation находятся в ThemeUI, а не в ScriptUI или KeyUI.
 
-Core aliases `gear_v1`, `settings_v2`, `egg`, `paw-print` were removed. Game-specific assets use explicit filenames.
-
-New replacement filenames invalidate old URL-based cache keys without deleting executor files. The three final polish PNGs are preserved byte-for-byte. Original third-party asset provenance is retained.
+Для новых иконок сначала обнови файлы Release, затем ThemeUI aliases и только после этого ссылки потребителей. Новые имена URL позволяют не смешивать старые изображения с прежними ключами disk cache.
