@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "repository": "tabler/tabler-icons",
+  "commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d",
+  "license": "MIT",
+  "author": "Paweł Kuna",
+  "canvas": {
+    "svg_view_box": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "svg_stroke_width": 2,
+    "png_width": 128,
+    "png_height": 128,
+    "color": "white",
+    "background": "transparent"
+  },
+  "renderer": "System.Drawing SVG path rasterization; original SVG geometry retained, round caps/joins; SVG elliptical arcs converted using W3C endpoint-to-center algorithm.",
+  "icons": [
+    {
+      "icon": "tabler:run",
+      "file": "../../tabler--run.png",
+      "svg": "svg/tabler--run.svg",
+      "svg_git_blob_sha": "2bd7664250f7792db19307f657aeecbd1f599b53",
+      "source_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/run.svg",
+      "sha256": "6216daad43c7ae3912b8380b469dda8c828bb32e6e81284e8dc6dc7a6fabf6a1",
+      "bounds": {
+        "max_x": 101,
+        "min_x": 16,
+        "min_y": 10,
+        "max_y": 117
+      },
+      "alpha_range": [
+        0,
+        255
+      ],
+      "archive_file": "png/tabler--run.png"
+    },
+    {
+      "icon": "tabler:eye",
+      "file": "../../tabler--eye.png",
+      "svg": "svg/tabler--eye.svg",
+      "svg_git_blob_sha": "5a0a21ddc7fcce84feee6b698ac3fccfb3508333",
+      "source_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/eye.svg",
+      "sha256": "c2a60b56caf19476810c256f1e5ff79d5010e4720ac6920e60e0f9b6d101a2e7",
+      "bounds": {
+        "max_x": 117,
+        "min_x": 10,
+        "min_y": 26,
+        "max_y": 101
+      },
+      "alpha_range": [
+        0,
+        255
+      ],
+      "archive_file": "png/tabler--eye.png"
+    },
+    {
+      "icon": "tabler:search",
+      "file": "../../tabler--search.png",
+      "svg": "svg/tabler--search.svg",
+      "svg_git_blob_sha": "e894f96200eb75972169fc7c58be7df14ecb8645",
+      "source_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/search.svg",
+      "sha256": "8b89ee00d31488f6164fcf346f554e6c9769442df1ea9ca8947bc8963ca60b15",
+      "bounds": {
+        "max_x": 117,
+        "min_x": 10,
+        "min_y": 10,
+        "max_y": 117
+      },
+      "alpha_range": [
+        0,
+        255
+      ],
+      "archive_file": "png/tabler--search.png"
+    },
+    {
+      "icon": "tabler:settings",
+      "file": "../../tabler--settings.png",
+      "svg": "svg/tabler--settings.svg",
+      "svg_git_blob_sha": "c94891403e451a07bf69053e98d1a57e424759fc",
+      "source_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/settings.svg",
+      "sha256": "cd130549fdd637b243a0dabeba7da1fae5ee98d9e67e9d89a96a651e1f4ae57c",
+      "bounds": {
+        "max_x": 117,
+        "min_x": 10,
+        "min_y": 11,
+        "max_y": 117
+      },
+      "alpha_range": [
+        0,
+        255
+      ],
+      "archive_file": "png/tabler--settings.png"
+    },
+    {
+      "icon": "tabler:arrows-move",
+      "file": "../../tabler--arrows-move.png",
+      "svg": "svg/tabler--arrows-move.svg",
+      "svg_git_blob_sha": "bdda4f871250d1873240c8fb6bdaee368cb8d402",
+      "source_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/arrows-move.svg",
+      "sha256": "8749a143779ddc49d7df4725079030b3b2cfcdaa190cc0ce17d70e320ee82086",
+      "bounds": {
+        "max_x": 117,
+        "min_x": 10,
+        "min_y": 10,
+        "max_y": 117
+      },
+      "alpha_range": [
+        0,
+        255
+      ],
+      "archive_file": "png/tabler--arrows-move.png"
+    },
+    {
+      "icon": "tabler:arrows-diagonal-2",
+      "file": "../../tabler--arrows-diagonal-2.png",
+      "svg": "svg/tabler--arrows-diagonal-2.svg",
+      "svg_git_blob_sha": "19e566a36c3342e79027c09df644fd0a349bd2a9",
+      "source_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/arrows-diagonal-2.svg",
+      "sha256": "9f99e9e87b343abd163dc41dee949da016da4cbe443a1efadda885b29d154d9f",
+      "bounds": {
+        "max_x": 112,
+        "min_x": 16,
+        "min_y": 16,
+        "max_y": 112
+      },
+      "alpha_range": [
+        0,
+        255
+      ],
+      "archive_file": "png/tabler--arrows-diagonal-2.png"
+    }
+  ]
+}
