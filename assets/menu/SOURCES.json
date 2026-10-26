@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "file": "halloween.jpg",
+      "origin": "User-provided image",
+      "original_filename": "8544082722f28f058e675ee8578a1f8c.jpg",
+      "width": 853,
+      "height": 480,
+      "sha256": "f92105d5999221a4976c5f17f6de3e6fd958ad21939eb741c6a85f438dbe3769",
+      "original_bytes": true
+    }
+  ]
+}
+

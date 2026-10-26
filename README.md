@@ -1,11 +1,20 @@
 # Atafami Release
 
-Публичный репозиторий для ресурсов и будущей поставки Atafami HUB.
+Публичная поставка ScriptUI_defolt и ресурсов Atafami.
 
-## Текущее содержимое
+## UI
 
-Сейчас публикуются только PNG-иконки в `assets/icons/`. Полный список semantic aliases и дополнительных PNG находится в [assets/README.md](assets/README.md).
+[ui/ScriptUI_defolt.luau](ui/ScriptUI_defolt.luau) — самостоятельная библиотека версии **1.22.2**, ContractVersion 1. Она не требует ScriptUI_old, ThemeUI или других Luau-модулей.
 
-ThemeUI из [Atafami-Source](https://github.com/Vel2367/Atafami-Source) — единственный владелец загрузки и кеширования иконок. ScriptUI и KeyUI используют его resolver как потребители.
+Подключение и установка фона описаны в [ui/README.md](ui/README.md). Разработчик создаёт вкладки и контролы, а библиотека владеет GUI, вводом, анимациями, иконками и своими ресурсами. Формат CFG — Version 1 / Flags.
 
-Production runtime bundle, game routing, key backend и Luarmor delivery **ещё не публикуются** через Release. Читаемые исходники, development previews и внутренняя документация остаются в Source.
+## Ресурсы
+
+- [assets/icons/](assets/icons/) — опубликованные PNG-иконки и исходные сведения об их происхождении.
+- [assets/menu/halloween.jpg](assets/menu/halloween.jpg) — предоставленный пользователем фон, опубликованный без изменения байтов.
+- [assets/README.md](assets/README.md) — каталог ресурсов.
+
+Прежний пакет fog/grain `assets/ui/defolt/background-v1/` удалён: актуальная библиотека его не загружает. Оформление использует локальные изображения, цветную подложку и затемнение.
+
+Рабочие исходники, тесты и игровой runtime находятся в [Atafami-Source](https://github.com/Vel2367/Atafami-Source). Key backend, game routing и Luarmor delivery не входят в эту поставку.
+
