@@ -1,6 +1,16 @@
 # Atafami Release
 
-Public menu assets and theme data used by Atafami UI modules. Executable libraries remain in [Atafami-Source](https://github.com/Vel2367/Atafami-Source).
+Public menu assets and protected frontend builds used by Atafami. Editable sources remain in [Atafami-Source](https://github.com/Vel2367/Atafami-Source). Game payloads are distributed through Luarmor.
+
+## Protected frontend
+
+| Path | Purpose |
+| --- | --- |
+| [project/loader.luau](project/loader.luau) | Key window orchestration and Luarmor SDK handoff. |
+| [project/ui/keyUI.luau](project/ui/keyUI.luau) | Standalone key window library. |
+| [project/ui/ScriptUI_defolt.luau](project/ui/ScriptUI_defolt.luau) | Shared game UI library. |
+
+These builds use native Luau execution with renamed locals and encoded strings. Generated helper attribution is in [project/THIRD_PARTY.txt](project/THIRD_PARTY.txt). User keys and administrative API credentials are not included.
 
 ## Assets
 
