@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "Revision": "1.25.0",
+  "Icons": [
+    "assets/menu/icons/akar-icons--arrow-cycle.png",
+    "assets/menu/icons/akar-icons--discord-fill.png",
+    "assets/menu/icons/akar-icons--door.png",
+    "assets/menu/icons/akar-icons--eye.png",
+    "assets/menu/icons/akar-icons--search.png",
+    "assets/menu/icons/bi--stop-fill.png",
+    "assets/menu/icons/ci--file-add.png",
+    "assets/menu/icons/ci--file-document.png",
+    "assets/menu/icons/ci--file-edit.png",
+    "assets/menu/icons/ci--file-remove.png",
+    "assets/menu/icons/ci--file-upload.png",
+    "assets/menu/icons/cil--apps-settings.png",
+    "assets/menu/icons/dashicons--arrow-up-alt2.png",
+    "assets/menu/icons/fa--arrows.png",
+    "assets/menu/icons/fa6-solid--floppy-disk.png",
+    "assets/menu/icons/fa6-solid--key.png",
+    "assets/menu/icons/flowbite--egg-outline.png",
+    "assets/menu/icons/glyphs--tools-bold.png",
+    "assets/menu/icons/gravity-ui--gear.png",
+    "assets/menu/icons/gridicons--resize.png",
+    "assets/menu/icons/icon-park-solid--click.png",
+    "assets/menu/icons/iconmind--chevrons-up-down-outline-bold.png",
+    "assets/menu/icons/iconmind--handle-resize-outline-regular.png",
+    "assets/menu/icons/mage--stars-c-fill.png",
+    "assets/menu/icons/material-symbols--swords-outline.png",
+    "assets/menu/icons/mdi--heart-pulse.png",
+    "assets/menu/icons/mdi--paw.png",
+    "assets/menu/icons/ri--run-fill.png",
+    "assets/menu/icons/tabler--arrows-diagonal-2.png",
+    "assets/menu/icons/tabler--arrows-move.png",
+    "assets/menu/icons/tabler--eye.png",
+    "assets/menu/icons/tabler--run.png",
+    "assets/menu/icons/tabler--search.png",
+    "assets/menu/icons/tabler--settings.png"
+  ],
+  "Backgrounds": [
+    "assets/menu/backgrounds/atafami-default.png",
+    "assets/menu/backgrounds/halloween-night.jpg"
+  ],
+  "Themes": [
+    "assets/menu/theme/Default.json",
+    "assets/menu/theme/Halloween.json"
+  ],
+  "Animations": [
+    "assets/menu/animations/svg-spinners--bars-scale-fade.svg"
+  ]
+}
