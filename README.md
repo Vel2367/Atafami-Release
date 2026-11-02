@@ -14,7 +14,7 @@ Public menu assets and theme data used by Atafami UI modules. Executable librari
 
 Themes store colors, dimming, and a repository-relative background path. The filename stem supplies the preset ID and label; optional Name is metadata ignored by the library. Default and Halloween JSON files are the preset data source.
 
-ScriptUI_defolt downloads catalog resources directly from this public repository into atafami/assets/menu in the executor workspace. A local Atafami-Release checkout is unnecessary. The UI creates atafami/configs for profiles and atafami/backgrounds for personal PNG/JPG images. A saved catalog tracks resource revisions; source modules, diagnostics, and generated audit reports do not belong in Release.
+ScriptUI_defolt fetches individual menu files from this public repository into atafami/menu in the executor workspace; it does not clone or download the Release repository. The UI creates atafami/configs for profiles. Catalog backgrounds and personal PNG/JPG images share atafami/menu/backgrounds. A saved catalog tracks resource revisions; source modules, diagnostics, and generated audit reports do not belong in Release.
 
 ## Attribution
 
