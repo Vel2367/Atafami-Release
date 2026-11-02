@@ -6,9 +6,18 @@ Public menu assets and protected frontend builds used by Atafami. Editable sourc
 
 | Path | Purpose |
 | --- | --- |
+| [project/entries/plus-one-upgrade-per-kill.luau](project/entries/plus-one-upgrade-per-kill.luau) | Configured public entry for +1 Upgrade Per Kill. |
 | [project/loader.luau](project/loader.luau) | Key window orchestration and Luarmor SDK handoff. |
 | [project/ui/keyUI.luau](project/ui/keyUI.luau) | Standalone key window library. |
 | [project/ui/ScriptUI_defolt.luau](project/ui/ScriptUI_defolt.luau) | Shared game UI library. |
+
+Run the configured entry without local Source files:
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vel2367/Atafami-Release/main/project/entries/plus-one-upgrade-per-kill.luau"))()
+```
+
+Enter your own user key in the key window.
 
 These builds use native Luau execution with renamed locals and encoded strings. Generated helper attribution is in [project/THIRD_PARTY.txt](project/THIRD_PARTY.txt). User keys and administrative API credentials are not included.
 
