@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "Revision": "1.26.0",
+  "Icons": [
+    "menu/icons/akar-icons--arrow-cycle.png",
+    "menu/icons/akar-icons--discord-fill.png",
+    "menu/icons/akar-icons--door.png",
+    "menu/icons/akar-icons--eye.png",
+    "menu/icons/akar-icons--search.png",
+    "menu/icons/bi--stop-fill.png",
+    "menu/icons/ci--file-add.png",
+    "menu/icons/ci--file-document.png",
+    "menu/icons/ci--file-edit.png",
+    "menu/icons/ci--file-remove.png",
+    "menu/icons/ci--file-upload.png",
+    "menu/icons/cil--apps-settings.png",
+    "menu/icons/dashicons--arrow-up-alt2.png",
+    "menu/icons/fa--arrows.png",
+    "menu/icons/fa6-solid--floppy-disk.png",
+    "menu/icons/fa6-solid--key.png",
+    "menu/icons/flowbite--egg-outline.png",
+    "menu/icons/glyphs--tools-bold.png",
+    "menu/icons/gravity-ui--gear.png",
+    "menu/icons/gridicons--resize.png",
+    "menu/icons/icon-park-solid--click.png",
+    "menu/icons/iconmind--chevrons-up-down-outline-bold.png",
+    "menu/icons/iconmind--handle-resize-outline-regular.png",
+    "menu/icons/mage--stars-c-fill.png",
+    "menu/icons/material-symbols--swords-outline.png",
+    "menu/icons/mdi--heart-pulse.png",
+    "menu/icons/mdi--paw.png",
+    "menu/icons/ri--run-fill.png",
+    "menu/icons/tabler--arrows-diagonal-2.png",
+    "menu/icons/tabler--arrows-move.png",
+    "menu/icons/tabler--eye.png",
+    "menu/icons/tabler--run.png",
+    "menu/icons/tabler--search.png",
+    "menu/icons/tabler--settings.png"
+  ],
+  "Backgrounds": [
+    "menu/backgrounds/atafami-default.png",
+    "menu/backgrounds/halloween-night.jpg"
+  ],
+  "Themes": [
+    "menu/theme/Default.json",
+    "menu/theme/Halloween.json"
+  ],
+  "Animations": [
+    "menu/animations/svg-spinners--bars-scale-fade.svg"
+  ]
+}
