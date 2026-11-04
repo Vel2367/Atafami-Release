@@ -1,25 +1,22 @@
 # Atafami Release
 
-Public menu assets and protected frontend builds used by Atafami. Editable sources remain in [Atafami-Source](https://github.com/Vel2367/Atafami-Source). Game payloads are distributed through Luarmor.
+Public obfuscated frontend builds and menu resources. Editable game sources stay private and are distributed through Luarmor.
 
-## Protected frontend
+## Frontend
 
 | Path | Purpose |
 | --- | --- |
-| [project/entries/plus-one-upgrade-per-kill.luau](project/entries/plus-one-upgrade-per-kill.luau) | Configured public entry for +1 Upgrade Per Kill. |
-| [project/loader.luau](project/loader.luau) | Key window orchestration and Luarmor SDK handoff. |
-| [project/ui/keyUI.luau](project/ui/keyUI.luau) | Standalone key window library. |
-| [project/ui/ScriptUI_defolt.luau](project/ui/ScriptUI_defolt.luau) | Shared game UI library. |
-
-Run the configured entry without local Source files:
+| [assets/loader.luau](assets/loader.luau) | One shared entry: detects the game, checks the key and starts its Luarmor script. |
+| [assets/ui/keyUI.luau](assets/ui/keyUI.luau) | Key-entry form. |
+| [assets/ui/scriptUI.luau](assets/ui/scriptUI.luau) | Shared UI and game-independent lifecycle runtime, API version 2. |
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Vel2367/Atafami-Release/main/project/entries/plus-one-upgrade-per-kill.luau"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vel2367/Atafami-Release/main/assets/loader.luau"))()
 ```
 
-Enter your own user key in the key window.
+The loader currently supports +1 Upgrade Per Kill. Enter your own key in the form. Game payloads are managed separately in Luarmor and must use the matching API 2 frontend at assets/ui/scriptUI.luau; a previous payload must be updated to the current private game source.
 
-These builds use native Luau execution with renamed locals and encoded strings. Generated helper attribution is in [project/THIRD_PARTY.txt](project/THIRD_PARTY.txt). User keys and administrative API credentials are not included.
+Frontend files use two local Obscura passes (native, then lightweight). Helper attribution is retained in [THIRD_PARTY.txt](THIRD_PARTY.txt). Game sources, tests, diagnostic adapters and administrative credentials are not included.
 
 ## Assets
 
@@ -33,7 +30,7 @@ These builds use native Luau execution with renamed locals and encoded strings. 
 
 Themes store colors, dimming, and a repository-relative background path. The filename stem supplies the preset ID and label; optional Name is metadata ignored by the library. Default and Halloween JSON files are the preset data source.
 
-ScriptUI_defolt fetches individual menu files from this public repository into atafami/menu in the executor workspace; it does not clone or download the Release repository. The UI creates atafami/configs for profiles. Catalog backgrounds and personal PNG/JPG images share atafami/menu/backgrounds. A saved catalog tracks resource revisions; source modules, diagnostics, and generated audit reports do not belong in Release.
+ScriptUI fetches individual menu files from this public repository into atafami/menu in the executor workspace; it does not clone or download the Release repository. The UI creates atafami/configs for profiles. Catalog backgrounds and personal PNG/JPG images share atafami/menu/backgrounds. A saved catalog tracks resource revisions; source modules, diagnostics, and generated audit reports do not belong in Release.
 
 ## Attribution
 

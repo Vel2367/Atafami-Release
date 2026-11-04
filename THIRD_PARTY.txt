@@ -1,4 +1,4 @@
-Frontend string helpers generated with Obscura 1.1.0 (lightweight).
+Generated frontend helper code: Obscura 1.1.0
 https://github.com/vo3pal/obscura
 
 MIT License
