@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Revision": "1.26.7",
+  "Revision": "1.26.8",
   "Icons": [
     "menu/icons/akar-icons--discord-fill.png",
     "menu/icons/andrsrxn--run.png",
@@ -11,6 +11,7 @@
     "menu/icons/coolicons--settings-duotone.png",
     "menu/icons/cuida--caret-down-outline.png",
     "menu/icons/fa6-solid--key.png",
+    "menu/icons/icon-park-solid--click.png",
     "menu/icons/mage--stars-c-fill.png",
     "menu/icons/mdi--resize-bottom-right.png",
     "menu/icons/vaadin--sword.png"
