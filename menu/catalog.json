@@ -1,11 +1,11 @@
 {
   "Version": 1,
-  "Revision": "1.26.2",
+  "Revision": "1.26.3",
   "Icons": [
     "menu/icons/akar-icons--discord-fill.png",
     "menu/icons/atafami-wordmark.png",
-    "menu/icons/carbon--settings.png",
     "menu/icons/fa6-solid--key.png",
+    "menu/icons/keyline-icons--settings-fill.png",
     "menu/icons/mage--stars-c-fill.png",
     "menu/icons/mdi--resize-bottom-right.png"
   ],
