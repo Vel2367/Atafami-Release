@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Revision": "1.26.6",
+  "Revision": "1.26.7",
   "Icons": [
     "menu/icons/akar-icons--discord-fill.png",
     "menu/icons/andrsrxn--run.png",
@@ -8,9 +8,9 @@
     "menu/icons/basil--caret-down-outline.png",
     "menu/icons/boxicons--search.png",
     "menu/icons/coolicons--egg.png",
+    "menu/icons/coolicons--settings-duotone.png",
     "menu/icons/cuida--caret-down-outline.png",
     "menu/icons/fa6-solid--key.png",
-    "menu/icons/keyline-icons--settings-fill.png",
     "menu/icons/mage--stars-c-fill.png",
     "menu/icons/mdi--resize-bottom-right.png",
     "menu/icons/vaadin--sword.png"
