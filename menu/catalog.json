@@ -1,11 +1,11 @@
 {
   "Version": 1,
-  "Revision": "1.26.4",
+  "Revision": "1.26.5",
   "Icons": [
     "menu/icons/akar-icons--discord-fill.png",
-    "menu/icons/akar-icons--search.png",
     "menu/icons/andrsrxn--run.png",
     "menu/icons/atafami-wordmark.png",
+    "menu/icons/boxicons--search.png",
     "menu/icons/coolicons--egg.png",
     "menu/icons/cuida--caret-down-outline.png",
     "menu/icons/fa6-solid--key.png",
