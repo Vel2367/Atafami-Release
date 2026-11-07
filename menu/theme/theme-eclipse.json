@@ -1,7 +1,7 @@
 {
   "Version": 1,
   "Name": "Eclipse",
-  "Background": "eclipse-moon.jpg",
+  "Background": "eclipse.jpg",
   "ImageSource": "user-provided",
   "Colors": {
     "Accent": [

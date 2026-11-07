@@ -1,28 +1,43 @@
 {
   "Version": 1,
-  "Revision": "1.26.8",
+  "Revision": "1.26.9",
   "Icons": [
     "menu/icons/akar-icons--discord-fill.png",
+    "menu/icons/andrsrxn--folder-settings.png",
+    "menu/icons/andrsrxn--heart-pulse.png",
     "menu/icons/andrsrxn--run.png",
+    "menu/icons/andrsrxn--tools.png",
+    "menu/icons/andrsrxn--warning-diamond.png",
+    "menu/icons/ant-design--lock-twotone.png",
     "menu/icons/atafami-wordmark.png",
     "menu/icons/basil--caret-down-outline.png",
     "menu/icons/boxicons--search.png",
     "menu/icons/coolicons--egg.png",
-    "menu/icons/coolicons--settings-duotone.png",
     "menu/icons/cuida--caret-down-outline.png",
+    "menu/icons/fa-regular--eye.png",
     "menu/icons/fa6-solid--key.png",
     "menu/icons/icon-park-solid--click.png",
+    "menu/icons/iconmind--success-duotone-regular.png",
     "menu/icons/mage--stars-c-fill.png",
     "menu/icons/mdi--resize-bottom-right.png",
+    "menu/icons/si--error-duotone.png",
     "menu/icons/vaadin--sword.png"
   ],
   "Backgrounds": [
-    "menu/backgrounds/atafami-default.png",
-    "menu/backgrounds/halloween-night.jpg"
+    "menu/backgrounds/default.png",
+    "menu/backgrounds/eclipse.jpg",
+    "menu/backgrounds/forest.webp",
+    "menu/backgrounds/halloween.png",
+    "menu/backgrounds/light.png",
+    "menu/backgrounds/violet.webp"
   ],
   "Themes": [
-    "menu/theme/Default.json",
-    "menu/theme/Halloween.json"
+    "menu/theme/theme-default.json",
+    "menu/theme/theme-eclipse.json",
+    "menu/theme/theme-forest.json",
+    "menu/theme/theme-halloween.json",
+    "menu/theme/theme-light.json",
+    "menu/theme/theme-violet.json"
   ],
   "Animations": [
     "menu/animations/svg-spinners--bars-scale-fade.svg"
