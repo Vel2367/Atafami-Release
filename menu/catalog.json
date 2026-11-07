@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Revision": "1.26.9",
+  "Revision": "1.26.10",
   "Icons": [
     "menu/icons/akar-icons--discord-fill.png",
     "menu/icons/andrsrxn--folder-settings.png",
@@ -24,20 +24,18 @@
     "menu/icons/vaadin--sword.png"
   ],
   "Backgrounds": [
-    "menu/backgrounds/default.png",
-    "menu/backgrounds/eclipse.jpg",
-    "menu/backgrounds/forest.webp",
-    "menu/backgrounds/halloween.png",
-    "menu/backgrounds/light.png",
-    "menu/backgrounds/violet.webp"
+    "menu/backgrounds/castorice.jpg",
+    "menu/backgrounds/daydream.jpg",
+    "menu/backgrounds/ember.jpg",
+    "menu/backgrounds/firefly.jpg",
+    "menu/backgrounds/starlight.jpg"
   ],
   "Themes": [
-    "menu/theme/theme-default.json",
-    "menu/theme/theme-eclipse.json",
-    "menu/theme/theme-forest.json",
-    "menu/theme/theme-halloween.json",
-    "menu/theme/theme-light.json",
-    "menu/theme/theme-violet.json"
+    "menu/theme/theme-castorice.json",
+    "menu/theme/theme-daydream.json",
+    "menu/theme/theme-ember.json",
+    "menu/theme/theme-firefly.json",
+    "menu/theme/theme-starlight.json"
   ],
   "Animations": [
     "menu/animations/svg-spinners--bars-scale-fade.svg"
