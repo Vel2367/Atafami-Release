@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Revision": "1.26.11",
+  "Revision": "1.26.12",
   "Icons": [
     "menu/icons/akar-icons--discord-fill.png",
     "menu/icons/andrsrxn--folder-settings.png",
@@ -35,8 +35,8 @@
     "menu/theme/theme-castorice.json",
     "menu/theme/theme-daydream.json",
     "menu/theme/theme-ember.json",
-    "menu/theme/theme-firefly.json",
-    "menu/theme/theme-miku.json",
+    "menu/theme/theme-firefly-flame.json",
+    "menu/theme/theme-miku-rose.json",
     "menu/theme/theme-starlight.json"
   ],
   "Animations": [
