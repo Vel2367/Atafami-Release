@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Revision": "1.26.10",
+  "Revision": "1.26.11",
   "Icons": [
     "menu/icons/akar-icons--discord-fill.png",
     "menu/icons/andrsrxn--folder-settings.png",
@@ -28,6 +28,7 @@
     "menu/backgrounds/daydream.jpg",
     "menu/backgrounds/ember.jpg",
     "menu/backgrounds/firefly.jpg",
+    "menu/backgrounds/miku.jpg",
     "menu/backgrounds/starlight.jpg"
   ],
   "Themes": [
@@ -35,6 +36,7 @@
     "menu/theme/theme-daydream.json",
     "menu/theme/theme-ember.json",
     "menu/theme/theme-firefly.json",
+    "menu/theme/theme-miku.json",
     "menu/theme/theme-starlight.json"
   ],
   "Animations": [
