@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Revision": "1.26.12",
+  "Revision": "1.26.13",
   "Icons": [
     "menu/icons/akar-icons--discord-fill.png",
     "menu/icons/andrsrxn--folder-settings.png",
@@ -24,6 +24,7 @@
     "menu/icons/vaadin--sword.png"
   ],
   "Backgrounds": [
+    "menu/backgrounds/acheron.jpg",
     "menu/backgrounds/castorice.jpg",
     "menu/backgrounds/daydream.jpg",
     "menu/backgrounds/ember.jpg",
@@ -32,6 +33,7 @@
     "menu/backgrounds/starlight.jpg"
   ],
   "Themes": [
+    "menu/theme/theme-acheron.json",
     "menu/theme/theme-castorice.json",
     "menu/theme/theme-daydream.json",
     "menu/theme/theme-ember.json",
